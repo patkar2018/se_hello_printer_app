@@ -4,6 +4,6 @@ python:
 install:
   - make deps
 lint:
-  - flake8 hello-world test
+  - flake8 hello_world test
 script:
   - make test
